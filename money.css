@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    font-family: 'Kristen', sans-serif;
+}
+
+h1, h4{
+    color: #3cfae7;
+    font-family: 'Kristen', sans-serif;
+}
+.backgroundImage{
+    color:lightseagreen ;
+    padding-left: 65px;
+    padding-top: 50px;
+    width: 25%;
+    height: 150px;
+    border-radius: 50%;
+}
+.liens{
+    padding-left: 90px;
+    color: #0cd1ec;
+    text-decoration: underline;
+    font-style: italic;
+}
+.formCalcul{
+    padding:15px;
+    border: solid 10px #0cd1ec;
+    border-radius: 2%;
+    max-width: 500px;
+    margin:auto;
+    background-color: #0908074d;
+}
+
+.formCalcul .sectionCalcul{
+    margin:15px;
+}
+
+.form-container{
+    display: flex;
+    justify-content :space-around;
+}
+
+.form-container div{
+    padding: 15px;
+    background-color: rgb(60, 241, 254); 
+}
+
+body{
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+}
+
+.resultDiv {
+    text-align: center;
+    font-weight: 500;
+    border: solid 1px #154440;
+    border-radius: 5%;
+}
+
+.resultBrut{
+    background-color: #c25050;
+    color:rgb(126, 81, 249);
+}
+
+.resultDifference{
+    background-color: #717473;
+    color:rgb(126, 81, 249);
+}
+
+.resultNet{
+    background-color: #28f5e7;
+    color:rgb(126, 81, 249);
+}
+header{
+    background:radial-gradient(circle at center, rgb(2, 2, 2) 0, rgb(47, 120, 169), rgb(0, 0, 0) 100%);
+}
+
+main {
+background:radial-gradient(circle at center, rgb(4, 222, 247) 0, rgb(47, 120, 169), rgb(0, 0, 0) 100%);
+}
+
+footer{
+    margin-right: 200px;
+    margin-top: -60px;
+text-align: right;
+}
+
